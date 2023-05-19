@@ -1,0 +1,14 @@
+@import "./reset.css";
+@import "./header.css";
+@import "./partners.css";
+
+:root {
+  --light-green: #74c69d;
+  --white-fixed: #ffffff;
+  --white-opacity: rgba(255, 255, 255, 0.75);
+  --jet-black: #212529;
+  --black: #000000;
+
+  --title-font: "Crimson Text", serif;
+  --text-font: "Work Sans", sans-serif;
+}
