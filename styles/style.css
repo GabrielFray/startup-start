@@ -1,14 +1,23 @@
 @import "./reset.css";
 @import "./header.css";
 @import "./partners.css";
+@import "./services.css";
+@import "./teams.css";
+@import "./footer.css";
 
 :root {
   --light-green: #74c69d;
   --white-fixed: #ffffff;
   --white-opacity: rgba(255, 255, 255, 0.75);
-  --jet-black: #212529;
-  --black: #000000;
+  --dark-0: #212529;
+  --dark-50: rgba(33, 37, 41, 0.5);
+  --dark-75: rgba(33, 37, 41, 0.75);
+  --dark-100: #000000;
 
   --title-font: "Crimson Text", serif;
   --text-font: "Work Sans", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
 }

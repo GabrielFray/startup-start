@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Start</title>
+    <link
+      rel="shortcut icon"
+      href="assets/start-logo.svg"
+      type="image/x-icon"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -34,7 +39,7 @@
         <ul class="nav__links">
           <li><a href="#">Home</a></li>
           <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Services</a></li>
+          <li><a href="#services">Services</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
       </nav>
@@ -57,24 +62,147 @@
         </div>
       </div>
     </header>
-    <div>
-      <section class="section__partners">
-        <div class="content__partners-heading">
-          <h3>Partners</h3>
-          <h2>Lorem Ipsum Dolor</h2>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+
+    <section class="section__partners section">
+      <div class="content__heading partners">
+        <h3>Partners</h3>
+        <h2>Lorem Ipsum Dolor</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+      <div class="content__images partners">
+        <ul>
+          <li><img src="./assets/google.svg" alt="Logo da Google" /></li>
+          <li><img src="./assets/microft.svg" alt="Logo da Microsoft" /></li>
+          <li><img src="./assets/airbnb.svg" alt="Logo do Airbnb" /></li>
+          <li><img src="./assets/facebook.svg" alt="Logo do Facebook" /></li>
+          <li><img src="./assets/spotify.svg" alt="Logo do spotify" /></li>
+        </ul>
+      </div>
+      <button type="button">Learn More</button>
+    </section>
+
+    <section id="services" class="content__services">
+      <div class="service message">
+        <img
+          src="./assets/messages.svg"
+          alt="Pessoas trocando mensagens virtuais"
+        />
+        <div class="services__info">
+          <h2>Lorem ipsum dolor sit amet consectetur</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit
+            nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum,
+            voluptate culpa nesciunt delectus iste?
+          </p>
+          <button type="button">Learn More</button>
         </div>
-        <div>
-          <ul class="partners__images">
-            <li><img src="./assets/google.svg" alt="Logo da Google" /></li>
-            <li><img src="./assets/microft.svg" alt="Logo da Microsoft" /></li>
-            <li><img src="./assets/airbnb.svg" alt="Logo do Airbnb" /></li>
-            <li><img src="./assets/facebook.svg" alt="Logo do Facebook" /></li>
-            <li><img src="./assets/spotify.svg" alt="Logo do spotify" /></li>
-          </ul>
+      </div>
+      <div class="service security">
+        <img
+          src="./assets/security.svg"
+          alt="Pessoas trocando mensagens virtuais"
+        />
+        <div class="services__info">
+          <h2>Lorem ipsum dolor sit amet consectetur</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit
+            nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum,
+            voluptate culpa nesciunt delectus iste?
+          </p>
+          <button type="button">Learn More</button>
         </div>
-        <button type="button">Learn More</button>
-      </section>
-    </div>
+      </div>
+    </section>
+
+    <section class="section__team section">
+      <div class="content__heading team">
+        <h3>Team</h3>
+        <h2>Our Talents</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+      <ul class="content__images team">
+        <li class="team__profile">
+          <img
+            src="./assets/peg-image.svg"
+            alt="Imagem de um dos nossos talentos"
+          />
+          <h3>Peg Legge</h3>
+          <span>Ceo</span>
+        </li>
+        <li class="team__profile">
+          <img
+            src="./assets/richard-image.svg"
+            alt="Imagem de um dos nossos talentos"
+          />
+          <h3>Richard Guerra</h3>
+          <span>Cto</span>
+        </li>
+        <li class="team__profile">
+          <img
+            src="./assets/alexandra-image.svg"
+            alt="Imagem de um dos nossos talentos"
+          />
+          <h3>Alexandra Stolz</h3>
+          <span>Designer</span>
+        </li>
+        <li class="team__profile">
+          <img
+            src="./assets/janet-image.svg"
+            alt="Imagem de um dos nossos talentos"
+          />
+          <h3>Janet Bray</h3>
+          <span>Developer</span>
+        </li>
+      </ul>
+      <button type="button">Learn More</button>
+    </section>
+
+    <footer class="content__footer">
+      <ul class="sociais__medias">
+        <li>
+          <img
+            src="./assets/facebook-icon.svg"
+            alt="Icone da rede social Facebook"
+          />
+        </li>
+        <li>
+          <img
+            src="./assets/instagram-icon.svg"
+            alt="Icone da rede social Instagram"
+          />
+        </li>
+        <li>
+          <img
+            src="./assets/twitter-icon.svg"
+            alt="Icone da rede social Twitter"
+          />
+        </li>
+        <li>
+          <img
+            src="./assets/pinterest.svg"
+            alt="Icone da rede social Pinterest"
+          />
+        </li>
+        <li>
+          <img
+            src="./assets/tiktok-icon.svg"
+            alt="Icone da rede social Tik Tok"
+          />
+        </li>
+        <li>
+          <img
+            src="./assets/whatszapp-icon.svg"
+            alt="Icone da rede social Whatszapp"
+          />
+        </li>
+        <li>
+          <img
+            src="./assets/youtube-icon.svg"
+            alt="Icone da rede social Youtube"
+          />
+        </li>
+      </ul>
+      <p>© Start, 2022. All rights reserved.</p>
+    </footer>
   </body>
 </html>

@@ -1,0 +1,81 @@
+.content__services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  row-gap: 3.75rem;
+  margin: 3.6875rem 1.25rem 2.5rem 1.25rem;
+}
+
+.service {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 2.1875rem;
+}
+
+.services__info {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.25rem;
+}
+
+.message > img {
+  width: 100%;
+  height: auto;
+  max-height: 29rem;
+  max-width: 39rem;
+}
+
+.security > img {
+  width: 100%;
+  height: auto;
+  max-height: 35rem;
+  max-width: 37.5rem;
+}
+
+.services__info > h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--dark-0);
+  font-family: var(--title-font);
+}
+
+.services__info > p {
+  font-size: 0.9375rem;
+  color: var(--dark-50);
+  font-family: var(--text-font);
+}
+
+.services__info > button {
+  background-color: var(--dark-0);
+  color: var(--white-fixed);
+}
+
+.services__info > button:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (min-width: 768px) {
+  .services__info {
+    max-width: 30rem;
+  }
+
+  .security {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .content__services {
+    margin: 5rem 10rem;
+  }
+
+  .service {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 4rem;
+  }
+}

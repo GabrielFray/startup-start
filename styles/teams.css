@@ -1,0 +1,45 @@
+.section__team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.team {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2.1875rem;
+}
+
+.team > li {
+  width: 17.4375rem;
+  height: 18.6875rem;
+  box-shadow: 0.1875rem 0.25rem 0.75rem rgba(0, 0, 0, 0.25);
+  border-radius: 0.3125rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 1.0625rem;
+}
+
+.team__profile > img {
+  width: 10rem;
+  height: 10rem;
+  align-self: center;
+}
+
+.team__profile > h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--dark-0);
+  font-family: var(--title-font);
+  padding: 0rem 2.375rem;
+}
+
+.team__profile > span {
+  font-size: 0.9375rem;
+  color: var(--dark-75);
+  font-family: var(--text-font);
+  text-transform: uppercase;
+  letter-spacing: 0.0625rem;
+  padding: 0rem 2.375rem;
+}

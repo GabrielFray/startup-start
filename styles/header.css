@@ -74,16 +74,25 @@
 
 .content__welcome > button {
   background-color: var(--white-fixed);
-  font-size: 1.25rem;
-  font-family: var(--text-font);
   margin-top: calc(1.5rem - 0.9375rem);
 }
 
+.content__welcome > button:hover {
+  transform: scale(1.1);
+}
+
 button {
+  font-size: 1.25rem;
+  font-family: var(--text-font);
   width: 10.625rem;
   height: 3rem;
   border-radius: 5px;
   border: none;
+  transition: transform 0.3s ease-in-out;
+}
+
+.content__main-image {
+  width: 40rem;
 }
 
 .content__main-image > img {
@@ -118,11 +127,21 @@ button {
 
   .content__sub-header {
     flex-wrap: nowrap;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-bottom: 5.125rem;
   }
 
   .content__welcome {
     max-width: 416px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .content__header {
+    padding: 2rem 8rem;
+  }
+
+  .content__welcome {
+    justify-content: center;
   }
 }
