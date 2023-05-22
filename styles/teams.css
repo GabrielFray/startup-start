@@ -10,6 +10,11 @@
   gap: 2.1875rem;
 }
 
+.team > li:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
 .team > li {
   width: 17.4375rem;
   height: 18.6875rem;
@@ -19,6 +24,7 @@
   flex-direction: column;
   justify-content: center;
   row-gap: 1.0625rem;
+  transition: transform 0.3s ease-in-out;
 }
 
 .team__profile > img {
