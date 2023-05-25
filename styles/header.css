@@ -74,16 +74,16 @@
   line-height: 125%;
 }
 
-.content__welcome > button {
+.content__welcome > .default__button {
   background-color: var(--white-fixed);
   margin-top: calc(1.5rem - 0.9375rem);
 }
 
-.content__welcome > button:hover {
+.content__welcome > .default__button:hover {
   transform: scale(1.1);
 }
 
-button {
+.default__button {
   font-size: 1.25rem;
   font-family: var(--text-font);
   width: 10.625rem;
@@ -104,9 +104,7 @@ button {
 
 .nav__links {
   display: none;
-  font-size: 1.25rem;
-  color: var(--dark-0);
-  font-family: var(--text-font);
+
   position: absolute;
   right: 0;
   left: 50%;
@@ -119,8 +117,19 @@ button {
   margin-top: 1em;
 }
 
-.nav__links > li {
+.content__list-links > li > a {
+  font-size: 1.25rem;
+  color: var(--dark-0);
+  font-family: var(--text-font);
+}
+
+.content__list-links > li {
   padding: 5px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.content__list-links > li:hover {
+  transform: scale(1.1);
 }
 
 #menu {
@@ -143,7 +152,6 @@ button {
 
   .nav__links {
     display: flex;
-    column-gap: 1.875rem;
     background-color: transparent;
     padding: 0;
     margin-top: 0;
@@ -153,7 +161,12 @@ button {
     box-shadow: none;
   }
 
-  .nav__links > li > a {
+  .content__list-links {
+    display: flex;
+    column-gap: 1.875rem;
+  }
+
+  .content__list-links > li > a {
     font-size: 1.25rem;
     color: var(--white-fixed);
     font-family: var(--text-font);

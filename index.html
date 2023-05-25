@@ -7,7 +7,7 @@
     <title>Start</title>
     <link
       rel="shortcut icon"
-      href="assets/start-logo.svg"
+      href="assets/icons/start-logo.svg"
       type="image/x-icon"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -20,15 +20,15 @@
       href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <header class="content__header">
-      <nav class="content__nav">
+      <div class="content__nav">
         <div class="logo">
           <img
             class="image__logo"
-            src="./assets/start-logo.svg"
+            src="./assets/icons/start-logo.svg"
             alt="Logo da start"
           />
           <h2>Start</h2>
@@ -37,19 +37,21 @@
           <input type="checkbox" id="menu" class="content__menu" />
           <label for="menu">
             <img
-              src="./assets/menu.svg"
+              src="./assets/icons/menu.svg"
               alt="Menu de opções"
               class="image__menu-button"
             />
           </label>
-          <ul class="nav__links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
+          <nav class="nav__links">
+            <ul class="content__list-links">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
         </div>
-      </nav>
+      </div>
       <div class="content__sub-header">
         <div class="content__welcome">
           <h3>Welcome</h3>
@@ -59,7 +61,7 @@
             nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum,
             voluptate culpa nesciunt delectus iste?
           </p>
-          <button type="button">Explore</button>
+          <button class="default__button" type="button">Explore</button>
         </div>
         <div class="content__main-image">
           <img
@@ -85,7 +87,7 @@
           <li><img src="./assets/spotify.svg" alt="Logo do spotify" /></li>
         </ul>
       </div>
-      <button type="button">Learn More</button>
+      <button class="default__button" type="button">Learn More</button>
     </section>
 
     <section id="services" class="content__services">
@@ -101,7 +103,7 @@
             nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum,
             voluptate culpa nesciunt delectus iste?
           </p>
-          <button type="button">Learn More</button>
+          <button class="default__button" type="button">Learn More</button>
         </div>
       </div>
       <div class="service security">
@@ -116,7 +118,7 @@
             nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum,
             voluptate culpa nesciunt delectus iste?
           </p>
-          <button type="button">Learn More</button>
+          <button class="default__button" type="button">Learn More</button>
         </div>
       </div>
     </section>
@@ -161,50 +163,50 @@
           <span>Developer</span>
         </li>
       </ul>
-      <button type="button">Learn More</button>
+      <button class="default__button" type="button">Learn More</button>
     </section>
 
     <footer class="content__footer">
       <ul class="sociais__medias">
         <li>
           <img
-            src="./assets/facebook-icon.svg"
+            src="./assets/icons/facebook-icon.svg"
             alt="Icone da rede social Facebook"
           />
         </li>
         <li>
           <img
-            src="./assets/instagram-icon.svg"
+            src="./assets/icons/instagram-icon.svg"
             alt="Icone da rede social Instagram"
           />
         </li>
         <li>
           <img
-            src="./assets/twitter-icon.svg"
+            src="./assets/icons/twitter-icon.svg"
             alt="Icone da rede social Twitter"
           />
         </li>
         <li>
           <img
-            src="./assets/pinterest.svg"
+            src="./assets/icons/pinterest-icon.svg"
             alt="Icone da rede social Pinterest"
           />
         </li>
         <li>
           <img
-            src="./assets/tiktok-icon.svg"
+            src="./assets/icons/tiktok-icon.svg"
             alt="Icone da rede social Tik Tok"
           />
         </li>
         <li>
           <img
-            src="./assets/whatszapp-icon.svg"
+            src="./assets/icons/whatszapp-icon.svg"
             alt="Icone da rede social Whatszapp"
           />
         </li>
         <li>
           <img
-            src="./assets/youtube-icon.svg"
+            src="./assets/icons/youtube-icon.svg"
             alt="Icone da rede social Youtube"
           />
         </li>

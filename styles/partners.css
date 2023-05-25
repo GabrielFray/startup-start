@@ -50,11 +50,11 @@
   gap: 2.5rem;
 }
 
-.section > button {
+.section > .default__button {
   background-color: var(--dark-0);
   color: var(--white-fixed);
 }
 
-.section > button:hover {
+.section > .default__button:hover {
   transform: scale(1.1);
 }

@@ -46,12 +46,12 @@
   font-family: var(--text-font);
 }
 
-.services__info > button {
+.services__info > .default__button {
   background-color: var(--dark-0);
   color: var(--white-fixed);
 }
 
-.services__info > button:hover {
+.services__info > .default__button:hover {
   transform: scale(1.1);
 }
 
